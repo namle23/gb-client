@@ -1,1 +1,4 @@
 UI for displaying data for Gambit challenge. React was used to built the implementation. The Client fetch data from a server, which was built with NodeJs. The Client uses endpoint of Heroku deployment to fetch data. If in any case requires the usage of localhost, change endpoint to "localhost:8080" after the local server has been served.
+
+NOTE for live demo deployment on Heroku:
+I found out the Heroku "free-tier" dynos is not the best, so when you take a look at the client live demo, it will take a bit time to load the UI, and when it show the UI, it doesn't load the data, as the data is being fetch from another server, which is running on free dynos as well. Please refresh the client page after it has showing the table, with "Number, Register" column name. It will show the data according to how it should be. 
